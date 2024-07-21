@@ -1,0 +1,9 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    queries: "./sql/queries/grades.sql"
+    schema: "./sql/migrations"
+    gen:
+      go:
+        package: "db"
+        out: "./infrastructure/db/"

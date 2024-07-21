@@ -1,0 +1,4 @@
+frontend/node_modules
+*.log
+backend/tmp/main
+backend/tmp
